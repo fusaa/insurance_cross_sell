@@ -50,6 +50,9 @@ Interesting Data Insights:
 
 # Feature Selection
 
-Tree Classifier was used for feature selection, the importance order 
+Extra Trees Classifier was used for feature selection, hence the result:
+
+![image](https://user-images.githubusercontent.com/66756007/196953629-c9edb86d-1085-48ca-acf7-7012617e7dd3.png)
+
 
 
