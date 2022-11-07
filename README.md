@@ -6,7 +6,7 @@ So then 127,000 new customers did not respond to the survey, and the company wis
 
 # Project Objective
 
-Generate a list of the customers most likely to acquire the new product, so resources are used more efficiently (to rank customers).
+Generate a list of the customers most likely to acquire the new product, so resources are used more efficiently (to rank customers). Metric to measure performance of the model Recall @K.
 
 # Dataset
 
@@ -35,7 +35,6 @@ Deliver:
 Tasks
 - Cumulative Gain curve,
 - Lift Curve,
-- Precision at K
 - Recall at K
 
 Interesting Data Insights:
