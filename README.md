@@ -67,8 +67,43 @@ Cumulative Gain Curve has been generated, with this model, it would be possible 
 With this model we were able to rank customers in a way that it is possible to achieve roughly 100% of interested customers in acquiring an insurance by contacting only 50% of the customer list.
 ![image](https://user-images.githubusercontent.com/66756007/196957010-14745207-53c8-4bd5-bbdd-3afb110b1f24.png)
 
+# Insights
 
+![image](https://user-images.githubusercontent.com/66756007/200289391-083e13d1-2f5a-4ceb-8fb5-2c61179bce1b.png)
 
+- Males are more interested
+- People with driving license more likely to buy the new product
+- The older the vehicle the more the interest.
+- Damage in the vehicle in the past makes people want to do the car insurance.
 
+![image](https://user-images.githubusercontent.com/66756007/200289485-fa0b832d-f20a-40f4-8cd6-b6dbf9a9abf8.png)
 
+- Most interested age group for the product is between 40 and 50 years old.
+
+![image](https://user-images.githubusercontent.com/66756007/200289545-f1088afe-4765-4bab-b6fb-92097df3b794.png)
+
+- Regions 4,19, 23, 28, 38 and 51 are more likely to accept the product.
+
+![image](https://user-images.githubusercontent.com/66756007/200289620-6566bdc0-3e08-4f31-b6e6-219c94bd95e6.png)
+
+- Sales Channel 43 and 123 have a 100% rate of positives. While region 26 have a lot of positives.
+
+![image](https://user-images.githubusercontent.com/66756007/200289681-ad01894a-220f-41d5-b9ce-5ddaaeea0bbc.png)
+
+- Customers who are previously insured tend not to take the product.
+
+## The ammount of relevant customers hit when contacting 20.000 customers
+![image](https://user-images.githubusercontent.com/66756007/200289854-119f2529-eebb-4858-8e83-96540eb8cd7d.png)
+
+## Reaching out to 40.000 people what percentage will of interested people can be contacted?
+![image](https://user-images.githubusercontent.com/66756007/200289948-adcd3a15-7dc4-4728-8702-335591262295.png)
+
+## In order to reach 80% of interested customers on the chosen model how many people need to be contacted?
+![image](https://user-images.githubusercontent.com/66756007/200290031-8da836f4-8428-4aa8-bbba-ecca111e32fd.png)
+
+# Deploy
+
+Model has been deployed in the format of a Google Spreadsheet. That will allow easy management of the customer for contacts. It was created a button Get Scores > Get Predictions, this way list can be updated on the fly with new leads as well while using the model.
+
+![deploy](https://user-images.githubusercontent.com/66756007/200315857-cff3cb1b-4def-489e-b7c6-a832abca735e.gif)
 
