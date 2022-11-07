@@ -72,7 +72,7 @@ With this model we were able to rank customers in a way that it is possible to a
 ![image](https://user-images.githubusercontent.com/66756007/200289391-083e13d1-2f5a-4ceb-8fb5-2c61179bce1b.png)
 
 - Males are more interested
-- People with driving license more likely to buy the new product
+- People with driving licenses more likely to buy the new product
 - The older the vehicle the more the interest.
 - Damage in the vehicle in the past makes people want to do the car insurance.
 
@@ -86,13 +86,13 @@ With this model we were able to rank customers in a way that it is possible to a
 
 ![image](https://user-images.githubusercontent.com/66756007/200289620-6566bdc0-3e08-4f31-b6e6-219c94bd95e6.png)
 
-- Sales Channel 43 and 123 have a 100% rate of positives. While region 26 have a lot of positives.
+- Sales Channel 43 and 123 have a 100% rate of positives. While region 26 has a lot of positives.
 
 ![image](https://user-images.githubusercontent.com/66756007/200289681-ad01894a-220f-41d5-b9ce-5ddaaeea0bbc.png)
 
-- Customers who are previously insured tend not to take the product.
+- Customers who are previously insured tend to refrain from taking the product.
 
-## The ammount of relevant customers hit when contacting 20.000 customers
+## The amount of relevant customers hit when contacting 20.000 customers
 ![image](https://user-images.githubusercontent.com/66756007/200289854-119f2529-eebb-4858-8e83-96540eb8cd7d.png)
 
 ## Reaching out to 40.000 people what percentage will of interested people can be contacted?
@@ -103,7 +103,9 @@ With this model we were able to rank customers in a way that it is possible to a
 
 # Deploy
 
-Model has been deployed in the format of a Google Spreadsheet. That will allow easy management of the customer for contacts. It was created a button Get Scores > Get Predictions, this way list can be updated on the fly with new leads as well while using the model.
+API was created and deployed to HEROKU. In addition, a Google Spreadsheet has been made, which is available to download from this repository(as .xlsx format - needs to be imported into Google Spreadsheets). 
+
+This way of deployment with an easy-to-use spreadsheet service will allow effortless management for the team. Observe that a button has been created: "Get Scores > Get Predictions" using Google Script on the spreadsheet. Code is also available in the repository. Users can update this list on the fly with new leads, and with a single click, they can get the customers' scores for prioritizing which ones to call.
 
 ![deploy](https://user-images.githubusercontent.com/66756007/200315857-cff3cb1b-4def-489e-b7c6-a832abca735e.gif)
 
