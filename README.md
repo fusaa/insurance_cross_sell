@@ -103,7 +103,7 @@ With this model we were able to rank customers in a way that it is possible to a
 
 # Deploy
 
-API was created and deployed to HEROKU. In addition, a Google Spreadsheet has been made, which is available to download from this repository(as .xlsx format - needs to be imported into Google Spreadsheets). 
+API was created and deployed to HEROKU - check API CODE [here](https://github.com/fusaa/insurance_cross_sell/tree/main/cross-sell-insurance-api). In addition, a Google Spreadsheet has been made, which is available to download from [this repository](https://github.com/fusaa/insurance_cross_sell/tree/main)(as .xlsx format - needs to be imported into Google Spreadsheets). The script for the Google Spreadsheet can be found [here](https://github.com/fusaa/insurance_cross_sell/blob/main/code_google.gs).
 
 This way of deployment with an easy-to-use spreadsheet service will allow effortless management for the team. Observe that a button has been created: "Get Scores > Get Predictions" using Google Script on the spreadsheet. Code is also available in the repository. Users can update this list on the fly with new leads, and with a single click, they can get the customers' scores for prioritizing which ones to call.
 
